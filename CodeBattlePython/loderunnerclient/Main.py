@@ -1,11 +1,12 @@
 from loderunnerclient.strategy.turn import turn
+from loderunnerclient.strategy.keyboard import keyboard
 from loderunnerclient.LodeRunnerClient import GameClient
 import logging
 import sys
-
+import os
 import xmltodict
 
-with open('settings.xml') as fd:
+with open(os.path.dirname(os.path.abspath(__file__))+'/settings.xml') as fd:
     settings = xmltodict.parse(fd.read())
 
 logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s',
