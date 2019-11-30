@@ -1,6 +1,6 @@
 ## Prerequisites:
 
-```pip install -e .```
+```pip3 install -e .```
 
 *You need `pip` to be installed first*
 
@@ -8,5 +8,5 @@
 
 Run client form command line:
 ```
-loderunnerclient
+loderunnerclient turn
 ```

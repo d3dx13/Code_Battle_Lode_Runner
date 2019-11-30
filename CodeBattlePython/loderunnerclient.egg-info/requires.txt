@@ -1,2 +1,4 @@
 websocket-client
 click
+xmltodict
+keyboard
