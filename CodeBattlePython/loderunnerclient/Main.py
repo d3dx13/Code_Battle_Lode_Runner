@@ -4,10 +4,6 @@ from loderunnerclient.LodeRunnerClient import GameClient
 import logging
 import sys
 import os
-import xmltodict
-
-with open(os.path.dirname(os.path.abspath(__file__))+'/settings.xml') as fd:
-    settings = xmltodict.parse(fd.read())
 
 logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s',
                     level=logging.INFO)
