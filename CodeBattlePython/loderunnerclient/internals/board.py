@@ -208,7 +208,6 @@ class Board:
         )
 
     def print_board(self):
-        print('\n'*30)
         print(self._line_by_line())
 
     def _line_by_line(self):
