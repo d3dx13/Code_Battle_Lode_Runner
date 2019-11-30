@@ -1,4 +1,5 @@
 README.md
+setup.py
 loderunnerclient/LodeRunnerClient.py
 loderunnerclient/Main.py
 loderunnerclient/__init__.py
