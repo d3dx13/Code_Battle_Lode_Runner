@@ -6,7 +6,7 @@ setup(name='loderunnerclient',
       author='',
       author_email='',
       packages=['loderunnerclient'],
-      install_requires=['websocket-client', 'click', 'xmltodict'],
+      install_requires=['websocket-client', 'click', 'xmltodict', 'keyboard'],
       entry_points={
           'console_scripts': ['loderunnerclient=loderunnerclient.Main:main']
       }
