@@ -1,5 +1,6 @@
 from loderunnerclient.strategy.turn import turn
 from loderunnerclient.strategy.keyboard import keyboard
+from loderunnerclient.strategy.stupid import stupid
 from loderunnerclient.LodeRunnerClient import GameClient
 import logging
 import sys
