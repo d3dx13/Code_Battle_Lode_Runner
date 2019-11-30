@@ -11,7 +11,7 @@ logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s',
                     level=logging.INFO)
 
 def main():
-    gcb = GameClient("http://codebattle-spb-2019.francecentral.cloudapp.azure.com/codenjoy-contest/board/player/5oap4pgcmb361163t32z?code=1323028855795138413")
+    gcb = GameClient("http://51.136.50.139/codenjoy-contest/board/player/d0fkhzh469jod3m1bwzt?code=3152725939839322376&gameName=loderunner")
     strategy = globals()[sys.argv[1]]
     gcb.run(strategy)
 

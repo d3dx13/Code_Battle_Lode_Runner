@@ -20,7 +20,7 @@ def optimal_bfs(gcb: Board):
         global x_max, y_max, map, cost_map
         print_map = {}
         for point in cost_map:
-            print_map[point] = int(10.0*cost_map[point][0] / cost_map[point][1] + 0.5)
+            print_map[point] = int(10.0*(cost_map[point][0]-1) / cost_map[point][1] + 0.5)
         result = ""
         for y in range(y_max):
             for x in range(x_max):
