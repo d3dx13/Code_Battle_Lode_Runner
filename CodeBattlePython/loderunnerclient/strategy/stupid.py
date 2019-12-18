@@ -5,7 +5,7 @@ import math
 
 def stupid(gcb: Board):
     res = gcb._line_by_line()
-    print(res)
+    #print(res)
     action_id = 0
     def point_to_list(point_list):
         out = []
