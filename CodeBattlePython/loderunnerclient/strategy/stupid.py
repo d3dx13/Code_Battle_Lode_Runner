@@ -4,11 +4,9 @@ import math
 
 
 def stupid(gcb: Board):
-<<<<<<< Updated upstream
     res = gcb._line_by_line()
     print(res)
     action_id = 0
-=======
     def point_to_list(point_list):
         out = []
         for point in point_list:
@@ -82,8 +80,8 @@ def stupid(gcb: Board):
         action_id = 1
     elif ((left_hole < right_hole) and (left_hole < nearest_ladder))or((nearest_ladder < left_hole) and (nearest_ladder < right_hole) and (near_ladder[0] < robot[0])):
         action_id = 0
-    else: action_id = 2
+    else:
+        action_id = 2
     print(str(left_hole), " ", right_hole, " ", nearest_ladder)
 
->>>>>>> Stashed changes
     return list(LoderunnerAction)[action_id]
